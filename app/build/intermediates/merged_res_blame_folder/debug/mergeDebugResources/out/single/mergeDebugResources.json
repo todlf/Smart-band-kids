@@ -1,110 +1,122 @@
 [
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_bottom_navigation_item_selector.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\bottom_navigation_item_selector.xml"
     },
     {
         "merged": "com.example.smart_band_kids.app-debug-31:/layout_fragment_home.xml.flat",
         "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/layout_fragment_setting.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_setting.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_notifications_24px.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/notifications_24px.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\layout_fragment_bluetooth.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\layout\\fragment_bluetooth.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/layout_fragment_bluetooth.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_bluetooth.xml"
+        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_directions_walk_24px.xml.flat",
+        "source": "com.example.smart_band_kids.app-main-33:/drawable/directions_walk_24px.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_bluetooth_24px.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\bluetooth_24px.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_bluetooth_24px.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/bluetooth_24px.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/layout_fragment_notification.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_notification.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_home_40px.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/home_40px.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_settings_24px.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\settings_24px.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\layout_fragment_notification.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\layout\\fragment_notification.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_settings_24px.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/settings_24px.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_notifications_24px.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\notifications_24px.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\layout_fragment_setting.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\layout\\fragment_setting.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_bottom_navigation_item_selector.xml.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/drawable/bottom_navigation_item_selector.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.smart_band_kids.app-debug-31:/drawable_pool_24px.xml.flat",
+        "source": "com.example.smart_band_kids.app-main-33:/drawable/pool_24px.xml"
     },
     {
-        "merged": "com.example.smart_band_kids.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.smart_band_kids.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\drawable_home_40px.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\drawable\\home_40px.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.4\\com.example.smart_band_kids.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     }
 ]

@@ -4,20 +4,53 @@ package com.example.smart_band_kids.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Chronometer;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.smart_band_kids.R;
+import com.google.android.material.switchmaterial.SwitchMaterial;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final Chronometer chronometer;
+
+  @NonNull
+  public final SwitchMaterial materialSwitch;
+
+  @NonNull
+  public final TextView swimMode;
+
+  @NonNull
+  public final TextView swimmingStatus;
+
+  @NonNull
+  public final TextView swimmingTime;
+
+  @NonNull
+  public final ImageView walkingImage;
+
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull Chronometer chronometer,
+      @NonNull SwitchMaterial materialSwitch, @NonNull TextView swimMode,
+      @NonNull TextView swimmingStatus, @NonNull TextView swimmingTime,
+      @NonNull ImageView walkingImage) {
     this.rootView = rootView;
+    this.chronometer = chronometer;
+    this.materialSwitch = materialSwitch;
+    this.swimMode = swimMode;
+    this.swimmingStatus = swimmingStatus;
+    this.swimmingTime = swimmingTime;
+    this.walkingImage = walkingImage;
   }
 
   @Override
@@ -43,10 +76,50 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.chronometer;
+      Chronometer chronometer = ViewBindings.findChildViewById(rootView, id);
+      if (chronometer == null) {
+        break missingId;
+      }
 
-    return new FragmentHomeBinding((FrameLayout) rootView);
+      id = R.id.material_switch;
+      SwitchMaterial materialSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (materialSwitch == null) {
+        break missingId;
+      }
+
+      id = R.id.swimMode;
+      TextView swimMode = ViewBindings.findChildViewById(rootView, id);
+      if (swimMode == null) {
+        break missingId;
+      }
+
+      id = R.id.swimmingStatus;
+      TextView swimmingStatus = ViewBindings.findChildViewById(rootView, id);
+      if (swimmingStatus == null) {
+        break missingId;
+      }
+
+      id = R.id.swimmingTime;
+      TextView swimmingTime = ViewBindings.findChildViewById(rootView, id);
+      if (swimmingTime == null) {
+        break missingId;
+      }
+
+      id = R.id.walkingImage;
+      ImageView walkingImage = ViewBindings.findChildViewById(rootView, id);
+      if (walkingImage == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((FrameLayout) rootView, chronometer, materialSwitch, swimMode,
+          swimmingStatus, swimmingTime, walkingImage);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

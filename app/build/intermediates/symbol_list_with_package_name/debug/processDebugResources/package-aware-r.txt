@@ -3002,6 +3002,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable directions_walk_24px
 drawable home_40px
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3097,6 +3098,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notifications_24px
 drawable notify_panel_notification_icon_bg
+drawable pool_24px
 drawable settings_24px
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3366,6 +3368,7 @@ id material_hour_tv
 id material_label
 id material_minute_text_input
 id material_minute_tv
+id material_switch
 id material_textinput_timepicker
 id material_timepicker_cancel_button
 id material_timepicker_container
@@ -3535,6 +3538,9 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swimMode
+id swimmingStatus
+id swimmingTime
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3599,6 +3605,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id walkingImage
 id west
 id withText
 id with_icon
