@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bluetooth_24px
+drawable bottom_navigation_item_selector
+drawable home_40px
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable notifications_24px
+drawable settings_24px
+id bottomNavigation
+id item_bluetooth
+id item_home
+id item_notification
+id item_setting
+id main
+id viewPager
+layout activity_main
+layout fragment_bluetooth
+layout fragment_home
+layout fragment_notification
+layout fragment_setting
+menu bottom_nav_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style Base.Theme.Smartbandkids
+style Theme.Smartbandkids
+xml backup_rules
+xml data_extraction_rules

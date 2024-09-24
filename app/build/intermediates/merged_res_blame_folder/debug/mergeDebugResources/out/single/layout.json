@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.smart_band_kids.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.smart_band_kids.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.smart_band_kids.app-mergeDebugResources-30:/layout/fragment_notification.xml",
+        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "com.example.smart_band_kids.app-mergeDebugResources-30:/layout/fragment_setting.xml",
+        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.example.smart_band_kids.app-mergeDebugResources-30:/layout/fragment_bluetooth.xml",
+        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_bluetooth.xml"
+    },
+    {
+        "merged": "com.example.smart_band_kids.app-mergeDebugResources-30:/layout/fragment_home.xml",
+        "source": "com.example.smart_band_kids.app-main-33:/layout/fragment_home.xml"
+    }
+]
