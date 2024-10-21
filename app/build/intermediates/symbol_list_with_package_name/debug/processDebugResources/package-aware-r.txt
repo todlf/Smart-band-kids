@@ -1357,6 +1357,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color app_background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1422,6 +1423,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2988,6 +2990,8 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable bluetooth_24px
+drawable bluetooth_button
+drawable bluetooth_frame
 drawable bottom_navigation_item_selector
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3003,6 +3007,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable directions_walk_24px
+drawable falling_24px
 drawable home_40px
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3099,6 +3104,7 @@ drawable notification_tile_bg
 drawable notifications_24px
 drawable notify_panel_notification_icon_bg
 drawable pool_24px
+drawable selector_radio_button
 drawable settings_24px
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3202,7 +3208,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonFinish
 id buttonPanel
+id buttonWrite
+id button_read
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3288,6 +3297,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fallingImage
+id fallingStatus
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3470,6 +3481,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id resetButton
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3486,6 +3498,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewLog
 id scrollable
 id search_badge
 id search_bar
@@ -3538,9 +3551,13 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swimChronometer
 id swimMode
+id swimModeSwitch
+id swimmingImage
 id swimmingStatus
 id swimmingTime
+id switchConnect
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3562,6 +3579,15 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewAccelSensor
+id textViewAutoconnect
+id textViewIndicateHint
+id textViewIndicateValue
+id textViewLifecycleState
+id textViewLog
+id textViewReadHint
+id textViewReadValue
+id textViewWaterSensor
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3572,6 +3598,11 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id time15m
+id time20m
+id time25m
+id time30m
+id timeRadioGroup
 id title
 id titleDividerNoCustom
 id title_template
@@ -3590,6 +3621,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvFallStatus
+id tvWaterStatus
 id unchecked
 id uniform
 id unlabeled
@@ -3606,6 +3639,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id walkingImage
+id walkingImageTwo
 id west
 id withText
 id with_icon
@@ -3730,6 +3764,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_navigation
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3853,6 +3888,9 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string button_clear_log
+string button_read
+string button_write
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -3985,6 +4023,21 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string text_default_logs_value
+string text_default_write_value
+string text_hint_write_value
+string text_not_subscribed
+string text_state_disconnected
+string text_static_autoconnect
+string text_static_indicate_hint
+string text_static_read_hint
+string text_static_write_hint
+string text_subscribed
+string time_15min
+string time_20min
+string time_25min
+string time_30min
+string time_interval_text
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

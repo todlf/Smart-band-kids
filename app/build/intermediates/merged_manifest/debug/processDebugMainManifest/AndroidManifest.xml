@@ -8,6 +8,15 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- Android 12(API 31) 이상에서 필수 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" /> <!-- 위치 권한은 BLE 스캔을 위해 필요합니다. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <permission
         android:name="com.example.smart_band_kids.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -27,6 +36,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Smartbandkids" >
+        <activity
+            android:name="com.example.smart_band_kids.NavigationActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.smart_band_kids.MainActivity"
             android:exported="true" >

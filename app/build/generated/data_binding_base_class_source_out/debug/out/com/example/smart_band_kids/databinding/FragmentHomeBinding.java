@@ -23,13 +23,16 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final Chronometer chronometer;
-
-  @NonNull
   public final SwitchMaterial materialSwitch;
 
   @NonNull
+  public final Chronometer swimChronometer;
+
+  @NonNull
   public final TextView swimMode;
+
+  @NonNull
+  public final ImageView swimmingImage;
 
   @NonNull
   public final TextView swimmingStatus;
@@ -38,18 +41,28 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView swimmingTime;
 
   @NonNull
+  public final TextView tvFallStatus;
+
+  @NonNull
+  public final TextView tvWaterStatus;
+
+  @NonNull
   public final ImageView walkingImage;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull Chronometer chronometer,
-      @NonNull SwitchMaterial materialSwitch, @NonNull TextView swimMode,
-      @NonNull TextView swimmingStatus, @NonNull TextView swimmingTime,
-      @NonNull ImageView walkingImage) {
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull SwitchMaterial materialSwitch,
+      @NonNull Chronometer swimChronometer, @NonNull TextView swimMode,
+      @NonNull ImageView swimmingImage, @NonNull TextView swimmingStatus,
+      @NonNull TextView swimmingTime, @NonNull TextView tvFallStatus,
+      @NonNull TextView tvWaterStatus, @NonNull ImageView walkingImage) {
     this.rootView = rootView;
-    this.chronometer = chronometer;
     this.materialSwitch = materialSwitch;
+    this.swimChronometer = swimChronometer;
     this.swimMode = swimMode;
+    this.swimmingImage = swimmingImage;
     this.swimmingStatus = swimmingStatus;
     this.swimmingTime = swimmingTime;
+    this.tvFallStatus = tvFallStatus;
+    this.tvWaterStatus = tvWaterStatus;
     this.walkingImage = walkingImage;
   }
 
@@ -80,21 +93,27 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.chronometer;
-      Chronometer chronometer = ViewBindings.findChildViewById(rootView, id);
-      if (chronometer == null) {
-        break missingId;
-      }
-
       id = R.id.material_switch;
       SwitchMaterial materialSwitch = ViewBindings.findChildViewById(rootView, id);
       if (materialSwitch == null) {
         break missingId;
       }
 
+      id = R.id.swimChronometer;
+      Chronometer swimChronometer = ViewBindings.findChildViewById(rootView, id);
+      if (swimChronometer == null) {
+        break missingId;
+      }
+
       id = R.id.swimMode;
       TextView swimMode = ViewBindings.findChildViewById(rootView, id);
       if (swimMode == null) {
+        break missingId;
+      }
+
+      id = R.id.swimmingImage;
+      ImageView swimmingImage = ViewBindings.findChildViewById(rootView, id);
+      if (swimmingImage == null) {
         break missingId;
       }
 
@@ -110,14 +129,27 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvFallStatus;
+      TextView tvFallStatus = ViewBindings.findChildViewById(rootView, id);
+      if (tvFallStatus == null) {
+        break missingId;
+      }
+
+      id = R.id.tvWaterStatus;
+      TextView tvWaterStatus = ViewBindings.findChildViewById(rootView, id);
+      if (tvWaterStatus == null) {
+        break missingId;
+      }
+
       id = R.id.walkingImage;
       ImageView walkingImage = ViewBindings.findChildViewById(rootView, id);
       if (walkingImage == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, chronometer, materialSwitch, swimMode,
-          swimmingStatus, swimmingTime, walkingImage);
+      return new FragmentHomeBinding((FrameLayout) rootView, materialSwitch, swimChronometer,
+          swimMode, swimmingImage, swimmingStatus, swimmingTime, tvFallStatus, tvWaterStatus,
+          walkingImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

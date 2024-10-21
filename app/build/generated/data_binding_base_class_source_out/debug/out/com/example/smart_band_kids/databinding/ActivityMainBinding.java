@@ -4,14 +4,20 @@ package com.example.smart_band_kids.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Chronometer;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import androidx.viewpager2.widget.ViewPager2;
 import com.example.smart_band_kids.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.switchmaterial.SwitchMaterial;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,21 +27,141 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final BottomNavigationView bottomNavigation;
+  public final Button buttonFinish;
 
   @NonNull
-  public final ConstraintLayout main;
+  public final Button buttonRead;
 
   @NonNull
-  public final ViewPager2 viewPager;
+  public final Button buttonWrite;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull ConstraintLayout main,
-      @NonNull ViewPager2 viewPager) {
+  @NonNull
+  public final AppCompatImageView fallingImage;
+
+  @NonNull
+  public final TextView fallingStatus;
+
+  @NonNull
+  public final Button resetButton;
+
+  @NonNull
+  public final ScrollView scrollViewLog;
+
+  @NonNull
+  public final Chronometer swimChronometer;
+
+  @NonNull
+  public final TextView swimMode;
+
+  @NonNull
+  public final SwitchMaterial swimModeSwitch;
+
+  @NonNull
+  public final AppCompatImageView swimmingImage;
+
+  @NonNull
+  public final TextView swimmingStatus;
+
+  @NonNull
+  public final TextView swimmingTime;
+
+  @NonNull
+  public final SwitchMaterial switchConnect;
+
+  @NonNull
+  public final TextView textViewAccelSensor;
+
+  @NonNull
+  public final TextView textViewAutoconnect;
+
+  @NonNull
+  public final TextView textViewIndicateHint;
+
+  @NonNull
+  public final TextView textViewIndicateValue;
+
+  @NonNull
+  public final TextView textViewLifecycleState;
+
+  @NonNull
+  public final TextView textViewLog;
+
+  @NonNull
+  public final TextView textViewReadHint;
+
+  @NonNull
+  public final TextView textViewReadValue;
+
+  @NonNull
+  public final TextView textViewWaterSensor;
+
+  @NonNull
+  public final RadioButton time15m;
+
+  @NonNull
+  public final RadioButton time20m;
+
+  @NonNull
+  public final RadioButton time25m;
+
+  @NonNull
+  public final RadioButton time30m;
+
+  @NonNull
+  public final RadioGroup timeRadioGroup;
+
+  @NonNull
+  public final AppCompatImageView walkingImage;
+
+  @NonNull
+  public final AppCompatImageView walkingImageTwo;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonFinish,
+      @NonNull Button buttonRead, @NonNull Button buttonWrite,
+      @NonNull AppCompatImageView fallingImage, @NonNull TextView fallingStatus,
+      @NonNull Button resetButton, @NonNull ScrollView scrollViewLog,
+      @NonNull Chronometer swimChronometer, @NonNull TextView swimMode,
+      @NonNull SwitchMaterial swimModeSwitch, @NonNull AppCompatImageView swimmingImage,
+      @NonNull TextView swimmingStatus, @NonNull TextView swimmingTime,
+      @NonNull SwitchMaterial switchConnect, @NonNull TextView textViewAccelSensor,
+      @NonNull TextView textViewAutoconnect, @NonNull TextView textViewIndicateHint,
+      @NonNull TextView textViewIndicateValue, @NonNull TextView textViewLifecycleState,
+      @NonNull TextView textViewLog, @NonNull TextView textViewReadHint,
+      @NonNull TextView textViewReadValue, @NonNull TextView textViewWaterSensor,
+      @NonNull RadioButton time15m, @NonNull RadioButton time20m, @NonNull RadioButton time25m,
+      @NonNull RadioButton time30m, @NonNull RadioGroup timeRadioGroup,
+      @NonNull AppCompatImageView walkingImage, @NonNull AppCompatImageView walkingImageTwo) {
     this.rootView = rootView;
-    this.bottomNavigation = bottomNavigation;
-    this.main = main;
-    this.viewPager = viewPager;
+    this.buttonFinish = buttonFinish;
+    this.buttonRead = buttonRead;
+    this.buttonWrite = buttonWrite;
+    this.fallingImage = fallingImage;
+    this.fallingStatus = fallingStatus;
+    this.resetButton = resetButton;
+    this.scrollViewLog = scrollViewLog;
+    this.swimChronometer = swimChronometer;
+    this.swimMode = swimMode;
+    this.swimModeSwitch = swimModeSwitch;
+    this.swimmingImage = swimmingImage;
+    this.swimmingStatus = swimmingStatus;
+    this.swimmingTime = swimmingTime;
+    this.switchConnect = switchConnect;
+    this.textViewAccelSensor = textViewAccelSensor;
+    this.textViewAutoconnect = textViewAutoconnect;
+    this.textViewIndicateHint = textViewIndicateHint;
+    this.textViewIndicateValue = textViewIndicateValue;
+    this.textViewLifecycleState = textViewLifecycleState;
+    this.textViewLog = textViewLog;
+    this.textViewReadHint = textViewReadHint;
+    this.textViewReadValue = textViewReadValue;
+    this.textViewWaterSensor = textViewWaterSensor;
+    this.time15m = time15m;
+    this.time20m = time20m;
+    this.time25m = time25m;
+    this.time30m = time30m;
+    this.timeRadioGroup = timeRadioGroup;
+    this.walkingImage = walkingImage;
+    this.walkingImageTwo = walkingImageTwo;
   }
 
   @Override
@@ -65,22 +191,193 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.bottomNavigation;
-      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
-      if (bottomNavigation == null) {
+      id = R.id.buttonFinish;
+      Button buttonFinish = ViewBindings.findChildViewById(rootView, id);
+      if (buttonFinish == null) {
         break missingId;
       }
 
-      ConstraintLayout main = (ConstraintLayout) rootView;
-
-      id = R.id.viewPager;
-      ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
-      if (viewPager == null) {
+      id = R.id.button_read;
+      Button buttonRead = ViewBindings.findChildViewById(rootView, id);
+      if (buttonRead == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, main,
-          viewPager);
+      id = R.id.buttonWrite;
+      Button buttonWrite = ViewBindings.findChildViewById(rootView, id);
+      if (buttonWrite == null) {
+        break missingId;
+      }
+
+      id = R.id.fallingImage;
+      AppCompatImageView fallingImage = ViewBindings.findChildViewById(rootView, id);
+      if (fallingImage == null) {
+        break missingId;
+      }
+
+      id = R.id.fallingStatus;
+      TextView fallingStatus = ViewBindings.findChildViewById(rootView, id);
+      if (fallingStatus == null) {
+        break missingId;
+      }
+
+      id = R.id.resetButton;
+      Button resetButton = ViewBindings.findChildViewById(rootView, id);
+      if (resetButton == null) {
+        break missingId;
+      }
+
+      id = R.id.scrollViewLog;
+      ScrollView scrollViewLog = ViewBindings.findChildViewById(rootView, id);
+      if (scrollViewLog == null) {
+        break missingId;
+      }
+
+      id = R.id.swimChronometer;
+      Chronometer swimChronometer = ViewBindings.findChildViewById(rootView, id);
+      if (swimChronometer == null) {
+        break missingId;
+      }
+
+      id = R.id.swimMode;
+      TextView swimMode = ViewBindings.findChildViewById(rootView, id);
+      if (swimMode == null) {
+        break missingId;
+      }
+
+      id = R.id.swimModeSwitch;
+      SwitchMaterial swimModeSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (swimModeSwitch == null) {
+        break missingId;
+      }
+
+      id = R.id.swimmingImage;
+      AppCompatImageView swimmingImage = ViewBindings.findChildViewById(rootView, id);
+      if (swimmingImage == null) {
+        break missingId;
+      }
+
+      id = R.id.swimmingStatus;
+      TextView swimmingStatus = ViewBindings.findChildViewById(rootView, id);
+      if (swimmingStatus == null) {
+        break missingId;
+      }
+
+      id = R.id.swimmingTime;
+      TextView swimmingTime = ViewBindings.findChildViewById(rootView, id);
+      if (swimmingTime == null) {
+        break missingId;
+      }
+
+      id = R.id.switchConnect;
+      SwitchMaterial switchConnect = ViewBindings.findChildViewById(rootView, id);
+      if (switchConnect == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewAccelSensor;
+      TextView textViewAccelSensor = ViewBindings.findChildViewById(rootView, id);
+      if (textViewAccelSensor == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewAutoconnect;
+      TextView textViewAutoconnect = ViewBindings.findChildViewById(rootView, id);
+      if (textViewAutoconnect == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewIndicateHint;
+      TextView textViewIndicateHint = ViewBindings.findChildViewById(rootView, id);
+      if (textViewIndicateHint == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewIndicateValue;
+      TextView textViewIndicateValue = ViewBindings.findChildViewById(rootView, id);
+      if (textViewIndicateValue == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewLifecycleState;
+      TextView textViewLifecycleState = ViewBindings.findChildViewById(rootView, id);
+      if (textViewLifecycleState == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewLog;
+      TextView textViewLog = ViewBindings.findChildViewById(rootView, id);
+      if (textViewLog == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewReadHint;
+      TextView textViewReadHint = ViewBindings.findChildViewById(rootView, id);
+      if (textViewReadHint == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewReadValue;
+      TextView textViewReadValue = ViewBindings.findChildViewById(rootView, id);
+      if (textViewReadValue == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewWaterSensor;
+      TextView textViewWaterSensor = ViewBindings.findChildViewById(rootView, id);
+      if (textViewWaterSensor == null) {
+        break missingId;
+      }
+
+      id = R.id.time15m;
+      RadioButton time15m = ViewBindings.findChildViewById(rootView, id);
+      if (time15m == null) {
+        break missingId;
+      }
+
+      id = R.id.time20m;
+      RadioButton time20m = ViewBindings.findChildViewById(rootView, id);
+      if (time20m == null) {
+        break missingId;
+      }
+
+      id = R.id.time25m;
+      RadioButton time25m = ViewBindings.findChildViewById(rootView, id);
+      if (time25m == null) {
+        break missingId;
+      }
+
+      id = R.id.time30m;
+      RadioButton time30m = ViewBindings.findChildViewById(rootView, id);
+      if (time30m == null) {
+        break missingId;
+      }
+
+      id = R.id.timeRadioGroup;
+      RadioGroup timeRadioGroup = ViewBindings.findChildViewById(rootView, id);
+      if (timeRadioGroup == null) {
+        break missingId;
+      }
+
+      id = R.id.walkingImage;
+      AppCompatImageView walkingImage = ViewBindings.findChildViewById(rootView, id);
+      if (walkingImage == null) {
+        break missingId;
+      }
+
+      id = R.id.walkingImageTwo;
+      AppCompatImageView walkingImageTwo = ViewBindings.findChildViewById(rootView, id);
+      if (walkingImageTwo == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, buttonFinish, buttonRead,
+          buttonWrite, fallingImage, fallingStatus, resetButton, scrollViewLog, swimChronometer,
+          swimMode, swimModeSwitch, swimmingImage, swimmingStatus, swimmingTime, switchConnect,
+          textViewAccelSensor, textViewAutoconnect, textViewIndicateHint, textViewIndicateValue,
+          textViewLifecycleState, textViewLog, textViewReadHint, textViewReadValue,
+          textViewWaterSensor, time15m, time20m, time25m, time30m, timeRadioGroup, walkingImage,
+          walkingImageTwo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
